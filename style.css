@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: san;
+    font-weight: 100;
+  }
+  
+  .container {
+    background-color: hsl(78deg 10% 20%);
+    display: grid;
+    margin: 1rem;
+  }
+  
+  body {
+    background-color: hsl(10deg 94% 67%);
+  }
+  
+  .navigation {
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    gap: 10px;
+  }
+  
+  .name {
+    color: hsl(27deg 22% 90%);
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: hsl(27deg 22% 90%);
+  }
+  
+  .main-container {
+    display: grid;
+  }
+  
+  .header-adv {
+    display: grid;
+    background-color: hsl(78deg 10% 20%);
+    margin: 100px;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding-left: 10px;
+    gap: 1rem;
+    color: hsl(60deg 3% 87%);
+    width: 70vw;
+    max-width: 500px;
+  }
+  .main-header {
+    display: grid;
+  }
+  
+  .svg-actual-img {
+    width: 20vw;
+    margin-block-start: 10px;
+    margin-top: 100px;
+  
+    padding-right: 200px;
+    position: absolute;
+  }
+  
+  h1 {
+    padding-left: 1rem;
+  }
+  
+  h2 {
+    color: hsl(49deg 98% 48%);
+    padding-left: 4rem;
+  }
+  
+  b {
+    color: hsl(196deg 56% 57%);
+  }
+  
+  .arrow {
+    text-align: center;
+    color: white;
+  }
+  
+  .projects {
+    grid-area: projects;
+    background-color: #ede6e2;
+  
+    display: grid;
+    grid-template:
+      ". projects-h3 ." 1fr
+      "first-menu second-menu third-menu" auto/
+      auto auto auto;
+    gap: 20px;
+  }
+  
+  .videos {
+    width: 10vw;
+  }
+  .first-menu {
+    grid-area: first-menu;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  .second-menu {
+    grid-area: second-menu;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  .third-menu {
+    grid-area: third-menu;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    background-color: white;
+  }
+  .projects-h3 {
+    grid-area: projects-h3;
+  }
+  h4 {
+    color: rgb(226, 105, 5);
+  }
+  
+  h3 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .experience {
+    grid-area: experience;
+    background-color: #5bc3eb;
+  
+    display: grid;
+    gap: 10px;
+  }
+  .first-row {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px 250px;
+    background-color: white;
+  
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 1fr 180px;
+    text-align: center;
+  }
+  .second-row {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px 250px;
+    background-color: white;
+  
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 1fr 180px;
+    text-align: center;
+  }
+  .third-row {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px 250px;
+    background-color: white;
+  
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 1fr 180px;
+    text-align: center;
+  }
+  .fourth-row {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px 250px;
+    margin-bottom: 50px;
+    background-color: white;
+  
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 1fr 180px;
+    text-align: center;
+  }
+  .hoxton-logo {
+    width: 60px;
+    margin-left: 50px;
+  }
+  
+  footer {
+    grid-area: footer;
+    background-color: #000000;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 10px;
+  }
+  
